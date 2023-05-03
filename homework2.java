@@ -16,9 +16,6 @@ public static void task2() {
     System.out.println("min elem: " + find.getMin());
     System.out.println("max elem: " + find.getMax());
 
-    //Arrays.sort(array2);
-    // System.out.println("min elem: " + array2[0]);
-    // System.out.println("max elem: " + array2[array2.length - 1]);
 
 }
 }
