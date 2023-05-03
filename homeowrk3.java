@@ -16,7 +16,7 @@ public class homeowrk3 {
         // принципу: индексы таких элементов равны,
         // то есть [0][0], [1][1], [2][2], …, [n][n];
         Scanner input = new Scanner(System.in);
-        System.out.println("Введите число n (размер двумерного массива): ");
+        System.out.println("Введите число  : ");
         int n = input.nextInt();
 
         int[][] array3 = new int[n][n];
