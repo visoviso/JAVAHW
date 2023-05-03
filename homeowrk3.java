@@ -36,3 +36,17 @@ public class homeowrk3 {
         return arr1;
     }
 }
+public static void diagonal(int x, int y) {
+    int[][] arr = new int[x][y];
+    
+    for (int i = 0; i < arr.length; i++) {
+    arr[i][arr.length - i - 1] = 1;
+    }
+    for (int i = 0; i < arr.length; i++) {
+    for (int j = 0; j < arr.length; j++) {
+    arr[i][i] = 1;
+    System.out.print(arr[i][j] + " ");
+    }
+    System.out.println();
+    }
+    }
