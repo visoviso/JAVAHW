@@ -4,10 +4,10 @@ import java.util.Objects;
 
 public class homework5 {
     public static void main(String[] args) {
-        task01();
+        task5();
     }
 
-    public static StringBuilder task01() {
+    public static StringBuilder task5() {
         // 1. Дана строка sql-запроса "select * from students where ".
         // Сформируйте часть WHERE этого запроса, используя StringBuilder.
         // Данные для фильтрации приведены ниже в виде json-строки.
