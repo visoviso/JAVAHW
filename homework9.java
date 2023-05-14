@@ -18,16 +18,16 @@ public class homework9 {
         LinkedList<String> listOfWords= new LinkedList<>();
         while (true) {
             System.out.print("введите строку: ");
-            String userInput = scan.nextLine();
+            String input = scan.nextLine();
 
-            if (userInput.equalsIgnoreCase("stop")){
+            if (input.equalsIgnoreCase("stop")){
                 break;
-            } else if (userInput.equalsIgnoreCase("print")){
+            } else if (input.equalsIgnoreCase("print")){
                 printArrayReversal(listOfWords);
-            } else if (userInput.equalsIgnoreCase("revert")){
+            } else if (input.equalsIgnoreCase("revert")){
                 revertLastWord(listOfWords);
             } else {
-                listOfWords.add(userInput);
+                listOfWords.add(input);
             }
         }
 
