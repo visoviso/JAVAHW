@@ -4,21 +4,19 @@
 import java.util.Collections;
 import java.util.LinkedList;
 
-    
-
 public class homework10 {
     public static void main(String[] args) {
         ex10();
-       
+
     }
 
-    static void ex10(){
-         LinkedList<String> list = new LinkedList<String>();
+    static void ex10() {
+        LinkedList<String> list = new LinkedList<String>();
         list.add("1");
         list.add("2");
         list.add("3");
         LinkedList<String> reversedList = reverseLinkedList(list);
-        System.out.println(reversedList); 
+        System.out.println(reversedList);
     }
 
     public static LinkedList reverseLinkedList(LinkedList list) {
