@@ -22,7 +22,6 @@
 import java.util.*;
 import java.util.Scanner;
 
-
 public class homework12 {
     public static void main(String[] args) {
 
@@ -32,12 +31,10 @@ public class homework12 {
         String name1 = new String("Ivanov Ivan");
         String name2 = new String("Petrova Svetlana");
         String name3 = new String("Vladimirova Anna");
-       
 
         bookName.put(0, name1);
         bookName.put(1, name2);
         bookName.put(2, name3);
-       
 
         for (int i = 0; i < bookName.size(); i++) {
             if (phoneBook.get(i) == null) {

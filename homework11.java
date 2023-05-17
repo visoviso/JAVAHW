@@ -36,7 +36,7 @@ public class homework11 {
                 }
             }
         }
-              count.entrySet().stream()
+        count.entrySet().stream()
                 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
                 .forEach(System.out::println);
     }
